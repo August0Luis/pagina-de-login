@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+background: linear-gradient(306deg, #16acba, #9928b2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: #222222;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    justify-content: space-between;
+    background-color: #f6f6f6;
+    width: 400px;
+    border-radius: 25px;
+}
+
+.container h2 {
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 50px;
+}
+
+.login-email {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    width: 100%;
+    align-items: center;
+}
+
+.login-email input {
+    width: 80%;
+    border: 0;
+    border-bottom: 1px solid;
+    background-color: #f6f6f6;
+}
+
+.login-senha {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    width: 100%;
+    align-items: center;
+}
+
+.login-senha input {
+    width: 80%;
+    border: 0;
+    border-bottom: 1px solid;
+    background-color: #f6f6f6;
+}
+
+.container a {
+    padding-bottom: 25px;
+}
+
+.container p {
+    margin-bottom: -25px;
+}
+
+.container-redes {
+    display: flex;
+    margin-top: 20px;
+}
+
+.facebook {
+    background-color: #3b5998;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google {
+    background-color: rgb(255, 0, 0);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apple {
+    background-color: #00acee;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook i {
+    color: white;
+    font-size: 30px;
+}
+
+.google i {
+    color: white;
+    font-size: 30px;
+}
+
+.apple i {
+    color: white;
+    font-size: 30px;
+}
+
+.botao {
+    width: 81%;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(306deg, #16acba, #9928b2);
+    font-weight: bold;
+    color: white;
+}
+
+.sign-up {
+    color: black;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
